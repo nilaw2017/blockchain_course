@@ -1,0 +1,12 @@
+SYNTAX:
+    function myFunction() <visibility specifier> returns (bool) {
+        return true;
+    }
+
+    1. public: visible externally and internally (creates a getter function for storage/state variables)
+
+    2. private: only visible in the current contract
+
+    3. external: only visible externally (only for functions) - i.e. can only be message-called via (this.func)
+
+    4. internal: only visible internally
