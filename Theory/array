@@ -1,0 +1,8 @@
+uint256 public favouriteNumber; // we do not see favouriteNumber until its made public
+    struct People {
+        uint256 favouriteNumber;
+        string name;
+    }
+    People public person = People({favouriteNumber:2, name: "Nilaw Manandhar"});
+
+    People[] public  people;
