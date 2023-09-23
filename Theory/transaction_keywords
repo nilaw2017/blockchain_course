@@ -1,0 +1,9 @@
+nonce => How many time the sender has sent a transaction
+
+to => Address of account this money is going to
+
+value => Amount of ehter to send to the target Address
+
+gasPrice => Amount of ether the sender is willing to pay per unit gas to get this transaction processed
+
+startGas / gasLimit => Unit of gas that this transaction can consume
